@@ -1,0 +1,1 @@
+for %%A IN (*.wav) DO ffmpeg -i "%%A" "%%A.mp3"
